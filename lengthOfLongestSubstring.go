@@ -4,23 +4,22 @@ package LeetCode
 func lengthOfLongestSubstring(s string) int {
 	length := len(s)
 	container := make(map[byte]int)
-	array := []byte(s)
 	result := 0
 	flag := 0
 
 	for left, right := 0, 0; right < length && left <= right; right++ {
-		value, ok := container[array[right]]
+		value, ok := container[s[right]]
 		if ok {
 			left += value - flag
 
 			for k := flag; k < left; k++ {
-				delete(container, array[k])
+				delete(container, s[k])
 			}
 
 			flag = value
 		}
 
-		container[array[right]] = right + 1
+		container[s[right]] = right + 1
 
 		if len(container) > result {
 			result = len(container)

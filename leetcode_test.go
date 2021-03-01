@@ -2,12 +2,9 @@ package LeetCode
 
 import "testing"
 
-func TestLengthOfLongestSubstring(t *testing.T) {
-	s := "abcdbcgheac"
+func TestDemo(t *testing.T) {
+	var a int = 5 / 2
+	b := float64(a)
 
-	result := lengthOfLongestSubstring(s)
-
-	if result != 7 {
-		t.Error(result)
-	}
+	t.Log(a, b)
 }
