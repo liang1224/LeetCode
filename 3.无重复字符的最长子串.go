@@ -1,6 +1,10 @@
-package LeetCode
+/*
+ * @lc app=leetcode.cn id=3 lang=golang
+ *
+ * [3] 无重复字符的最长子串
+ */
 
-// 无重复字符的最长子串
+// @lc code=start
 func lengthOfLongestSubstring(s string) int {
 	length := len(s)
 	container := make(map[byte]int)
@@ -28,3 +32,6 @@ func lengthOfLongestSubstring(s string) int {
 
 	return result
 }
+
+// @lc code=end
+
