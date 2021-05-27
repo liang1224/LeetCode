@@ -1,0 +1,42 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LeetCodeTest/UnitTest1.cs">
+    <Files>
+      <File FileName="LeetCodeTest/UnitTest1.cs" Line="50" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LeetCodeTest" expanded="True">
+            <Node name="LeetCodeTest" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>next</Value>
+          <Value>s</Value>
+          <Value>c</Value>
+          <Value>haystack[s]</Value>
+          <Value>needle[c]</Value>
+          <Value>haystack.Length</Value>
+          <Value>next[s-1]</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LeetCodeTest" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/liangjw/Code/leetcode/LeetCodeTest/LeetCodeTest/UnitTest1.cs" relfile="LeetCodeTest/UnitTest1.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -24,10 +24,6 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	// 定义指针
 	p1, p2 := 0, 0
 
-	// 判断奇偶(能否奇偶使用同一个方法处理？)
-	if total%2 == 0 {
-		if nums1[p]
-	}
 }
 
 // @lc code=end
